@@ -23,3 +23,17 @@ with multiple subproject.
 
 Source: [CentOS wiki](https://wiki.centos.org/SpecialInterestGroup)
 
+SIG are the way the CentOS community organises itself; every SIG is made out
+of several people, and has its own goals. There are Technical and Non-Technical
+SIG.
+
+## What is Config Management?
+
+When we speak about Config Management, we mean actually a bit more. We mean:
+configuration management, system lifecycle management and orchestration tools.
+It it the tools that allows you to efficiently deploy and manage your machines,
+nodes, vm, containers..
+
+## What is the Config Management SIG?
+
+A group of people who work together to bring those tools to the CentOS Users.
