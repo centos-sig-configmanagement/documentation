@@ -1,0 +1,21 @@
+/*
+ * centos.css_t
+ * ~~~~~~~~~~~~
+ *
+ * Sphinx stylesheet -- based on the default theme.
+ *
+ * :copyright: Copyright 2007-2016 by the Sphinx team.
+ * :license: BSD.
+ *
+ */
+ 
+@import url("classic.css");
+ 
+div.sphinxsidebar {
+    background-image: url('centos.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 80px;
+    font-size: 0.75em;
+    line-height: 1.5em;
+}
