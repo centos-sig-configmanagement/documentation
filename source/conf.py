@@ -129,21 +129,7 @@ html_theme = 'centos'
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
-html_theme_options = {
-   'footerbgcolor': '#0b1526',
-   'footertextcolor': '#999999',
-   'sidebarbgcolor': '#0e1f38',
-#   'relbarbgcolor': '#262577',
-   'sidebarlinkcolor': 'rgb(255,255,255)',
-   'relbartextcolor': '#ffffff',
-   'relbarbgcolor': '#628eca',
-   'headtextcolor': '#0e1f38',
-   'headbgcolor': '#f0f0f0',
-#   'linkcolor': '#262577',
-   'linkcolor': '#628eca',
-   'textcolor': '#000000',
-   'bgcolor': '#ffffff',
-}
+html_theme_options = {}
 
 # Add any paths that contain custom themes here, relative to this directory.
 html_theme_path = ['../']
