@@ -13,6 +13,7 @@ Contents:
 
    introduction
    contributing
+   githubrepo
    copyright
 
 
