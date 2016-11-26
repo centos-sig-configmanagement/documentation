@@ -14,6 +14,7 @@ Contents:
    introduction
    contributing
    githubrepo
+   testing
    copyright
 
 
