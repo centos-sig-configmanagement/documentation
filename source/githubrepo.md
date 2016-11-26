@@ -40,3 +40,27 @@ For more details, see the [CentOS wiki](https://wiki.centos.org/QaWiki/CI/Github
     ![Webhook status](images/github-webhooks-ok.png)
 
 
+## Protected branches
+
+When we have a stable repo, we can enforce ci testing by using the following
+steps:
+
+1. Open the project settings
+
+    ![Settings button](images/github-settings.png)
+
+1. Select Webhooks
+
+    ![Webhook menu button](images/github-branch-menu.png)
+
+1. Select the branch you want to protect
+
+    ![Webhook menu button](images/github-protected-branch-select.png)
+
+1. Select "Protect this Branch", "Require status checks to pass before merging",
+    *unselect* "Require branches to be up to date before merging", and select
+    "ci.centos.org". If you do not see "ci.centos.org", it means that there has not
+    yet been any pull requests tests on the repo.
+
+    ![Webhook menu button](images/github-protected-branch.png)
+
