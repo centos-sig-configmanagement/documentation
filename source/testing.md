@@ -1,6 +1,8 @@
 # Testing spec files
 
-Here are the steps we do when we test a spec file
+Here are the steps we do when we test a spec file.
+
+## Common to all the RPM
 
 1. We build a Source RPM
 
@@ -23,7 +25,7 @@ Here are the steps we do when we test a spec file
     Also, it makes it clear that the package is made out of a pull request and is
     not a final rpm.
 
-1. We make a candidate build -- identified by the Jenkins job numer and pull
+1. We make a candidate build -- identified by the Jenkins job number and pull
    request id.
 
     The candidate build has several advantages:
@@ -32,5 +34,15 @@ Here are the steps we do when we test a spec file
     - Inside the job, we can do "yum install package-pull-request(pull request
       id and job id). That way, we know that we fetch exactly the package that
       we need.
+
+1. We install the candidate build to a fresh node
+
+    That way, we ensures that at least the candidate build is able to install in
+    CentOS.
+
+
+## RPM-Specific tests
+
+Acceptances tests varies for each package.
 
 [1]:https://fedoraproject.org/wiki/Using_the_Koji_build_system#Scratch_Builds
